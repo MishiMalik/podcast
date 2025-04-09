@@ -5,11 +5,14 @@
 
 body {
     font-family: "Poppins", sans-serif;
+    background-color: #1C2326 !important;
 }
-.nav-link svg path{
-    fill: black;
+.navbar{
+    background-color: #1C2326 !important;
 }
-
+#logo-image{
+    height: 63px;
+}
 .theme-div {
     height: 30px;
     width: 30px;
@@ -34,7 +37,7 @@ body {
 }
 
 .nav-link:hover {
-    color: var(--secondry);
+    color: var(--secondry) !important;
 }
 
 .nav-link {
@@ -43,19 +46,23 @@ body {
     line-height: 28px;
     letter-spacing: 1px;
     padding-bottom: 20px;
+    color: white !important;
 
 }
-
+.nav-link svg path{
+    fill: white;
+}
 .pika-pika-dropdown {
     /* display: none; */
     position: absolute;
-    background-color: white;
+    background-color: #1C2326;
     padding: 0px;
     border-radius: 7px;
     transition: all .5s;
     opacity: 0;
     top: 50px;
     z-index: 2;
+    color: white !important;
 }
 
 .nav-dropdown:hover~.pika-pika-dropdown,
@@ -65,16 +72,17 @@ body {
     padding: 10px 15px;
     border-bottom: 2px solid var(--primary);
     top: 70px;
+    color: white !important;
 }
 
 
 .pika-pika-dropdown-item a {
     text-decoration: none;
-    color: black;
+    color: white !important;
 }
 
 .pika-pika-dropdown-item a:hover {
-    color: var(--secondry);
+    color: var(--secondry) !important;
 }
 .primary-text{
     color: var(--primary);
@@ -182,15 +190,23 @@ body {
     line-height: 38.4px;
     letter-spacing: 0px;
     vertical-align: middle;
+    color: white;
 }
-
+.modal-content{
+    background-color: #000;
+    color: white;
+    border: 1px solid white !important;
+}
+.modal-header .btn-close{
+    background-color: white !important;
+}
 .gray-text {
     font-weight: 400;
     font-size: 16px;
     line-height: 100%;
     letter-spacing: 0%;
     vertical-align: middle;
-    color: #707376;
+    color: #909192;
 }
 
 .play-hr {
@@ -213,14 +229,26 @@ body {
     justify-content: center;
     align-items: center;
     margin: 0 3px;
+    background-color: white;
 }
 
 .social-div:hover {
     border: 1px solid var(--primary);
 }
-
+.heading-bg{
+    background-color: #1C2326 !important;
+    color: white !important;
+}
 /* =======================================carousel */
-
+.bg-email {
+    background-color: #1C2326 !important;
+}
+.bg-email-row{
+    background:radial-gradient(#1c2326e5,#1c2326e5), url('/assets/images/subscribe-bg.png'); 
+    background-size: cover; 
+    background-position: center;
+    color: white !important;
+}
 /*  
   .carousel{
     width:90%;
@@ -231,7 +259,8 @@ body {
   } */
 .slick-slide img {
     width: 100%;
-    border: 2px solid #fff;
+    border: 2px solid #333333;
+    /* border-radius: 100% !important; */
 }
 
 .wrapper .slick-dots li button:before {
@@ -279,13 +308,14 @@ body {
 
 .carousel-card {
     margin: 0 7px;
-    background-color: white;
+    background-color: #333333;
     border-radius: 7px;
     overflow: hidden;
-    border: 1px solid rgba(231, 231, 231, 1);
+    border: 1px solid rgb(63, 60, 60);
     padding: 0px;
     cursor: pointer;
     transition: all .5s;
+    color: white;
 }
 
 .carousel-card:hover {
@@ -360,9 +390,7 @@ body {
     vertical-align: middle;
 
 }
-.heading-bg{
-    background-color: #F9F9F9;
-}
+
 /* ======================================================================subscribe */
 .heading-main-l {
     font-weight: 600;
@@ -381,12 +409,12 @@ body {
     letter-spacing: 0%;
     text-align: center;
     vertical-align: middle;
-    color: rgba(102, 102, 102, 1);
+    color: rgb(182, 178, 178) !important;
 }
 
 .subscribe-input {
-    background-color: rgba(255, 255, 255, 1);
-    border: 1px solid rgba(255, 255, 255, 1);
+    background-color: black;
+    border: 1px solid black;
     border-radius: 100px;
     padding: 14px 20px;
     font-family: Poppins;
@@ -472,14 +500,7 @@ footer a:hover {
     font-size: 16px;
     font-weight: 500;
 }
-.bg-email{
-    background-color: white;
-}
-.bg-email-row{
-    background:url('/assets/images/subscribe-bg.png'); 
-    background-size: cover; 
-    background-position: center;
-}
+
 /* =================================================================hero-section-pikapika */
 .hero-section-pikapika {
     background-image: url("../images/pikapikatalkshow.png");
@@ -536,7 +557,7 @@ footer a:hover {
 }
 
 .show-card {
-    background: #FFFFFF;
+    background: #333333;
     box-shadow: 0px 0px 30px rgba(0, 0, 0, 0.07);
     padding: 15px;
     cursor: pointer;
@@ -548,7 +569,7 @@ footer a:hover {
     font-weight: 600;
     font-size: 20px;
     line-height: 30px;
-    color: #000000;
+    color: white;
     display: -webkit-box;
     -webkit-box-orient: vertical;
     -webkit-line-clamp: 1;
@@ -623,14 +644,20 @@ color: #03A85A;
 }
 .about-card{
  
-background: linear-gradient(0deg, #FFFFFF 30%, rgba(255, 255, 255, 0.82) 100%);
+background: linear-gradient(0deg, black 30%, black 100%);
 box-shadow: 0px 10px 40px -5px rgba(0, 0, 0, 0.15);
 border-radius: 10px;
 padding: 15px;
+color: white !important;
 }
 
+.show-card-text  p{
+    color: var(--primary) !important;
+}
 
-
+.text.ellipsis-4{
+    color: rgb(197, 194, 194) !important;
+}
 /* ==========================================================timeline */
 /* Timeline Container */
 .timeline {

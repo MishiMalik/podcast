@@ -21,7 +21,7 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.5.8/slick.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.5.8/slick-theme.min.css">
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
-    <link rel="stylesheet" href="/assets/css/style.css">
+    <link rel="stylesheet" id="theme-link" href="/assets/css/style-dark.css">
 </head>
 
 <body class="" style="background-color: #F9F9F9;">
@@ -29,7 +29,7 @@
         <nav class="navbar navbar-expand-lg navbar-light bg-white py-0 ">
             <div class="container">
                 <a class="navbar-brand py-1" href="index.html">
-                    <img src="/assets/images/pikapika-logo.png" alt="Pika Pika Talk Show Logo">
+                    <img src="/assets/images/pikapika-logo.png" alt="Pika Pika Talk Show Logo" id="logo-image">
                 </a>
                 <button class="navbar-toggler d-lg-none" type="button" data-bs-toggle="collapse"
                     data-bs-target="#collapsibleNavId" aria-controls="collapsibleNavId" aria-expanded="false"
@@ -70,7 +70,7 @@
                                 data-bs-toggle="dropdown" aria-expanded="false">
                                 Programs
                             </a>
-                            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                             <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
                                 <li><a class="dropdown-item" href="pika-pika-talkshow.html">Pika Pika Talkshow</a></li>
                                 <li><a class="dropdown-item" href="pika-pika-NL.html">Pika Pika NL </a></li>
                                 <li><a class="dropdown-item" href="eigen-pad.html">Eigen Pad </a></li>
@@ -87,25 +87,25 @@
 
                     </ul>
                     <div class="d-flex my-2 my-lg-0  justify-content-md-end justify-content-center mb-0 mb-3">
-                        <div class="d-flex align-items-center">
-                            <div class="theme-div me-1">
+                         <div class="d-flex align-items-center">
+                            <div class="theme-div me-1" id="toggleTheme">
                                 <i class="bi bi-cloud-moon-fill"></i>
                                 <!-- <i class="bi bi-brightness-high-fill"></i> -->
                             </div>
                             <div class="social-div">
-                                <a href="https://www.facebook.com/pikapikatalkshow"><img src="assets/images/fb.svg"
+                                <a href="https://www.facebook.com/pikapikatalkshow" target="_blank"><img src="assets/images/fb.svg"
                                         alt=""></a>
                             </div>
                             <div class="social-div">
-                                <a href="https://www.youtube.com/@pikapikatalkshow6421"><img src="assets/images/yt.svg"
+                                <a href="https://www.youtube.com/@pikapikatalkshow6421" target="_blank"><img src="assets/images/yt.svg"
                                         alt=""></a>
                             </div>
                             <div class="social-div ">
-                                <a href="https://www.tiktok.com/@pikarita3?_t=ZS-8uOxMFBuw0Q&_r=1"><img
-                                        src="assets/images/tiktok.svg" alt=""></a>
+                                <a href="https://www.tiktok.com/@pikarita3?_t=ZS-8uOxMFBuw0Q&_r=1" target="_blank"><img
+                                        src="assets/images/tiktok.svg" alt="" ></a>
                             </div>
                             <div class="social-div ">
-                                <a href="https://www.instagram.com/pika_pika_ku_rita_?igsh=ZzMybGNycnhraDY0"><img
+                                <a href="https://www.instagram.com/pika_pika_ku_rita_?igsh=ZzMybGNycnhraDY0" target="_blank"><img
                                         src="assets/images/insta.svg" alt=""></a>
                             </div>
                         </div>
@@ -227,10 +227,9 @@
 
 
 
-        <section class="bg-white pt-5">
+        <section class="bg-email pt-5">
             <div class="container">
-                <div class="row "
-                    style="background-image: url('/assets/images/subscribe-bg.png'); background-size: cover; background-position: center;">
+                <div class="row bg-email-row">
                    <div class="col-lg-10 mx-auto py-5 text-center">
                         <h3 class="heading-main-l" data-aos="fade-up" data-aos-duration="1000">
                             New episodes are always being added regularly
@@ -381,7 +380,8 @@
         crossorigin="anonymous"></script>
     <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.5.8/slick.min.js"></script>
-    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+   <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="assets/js/app.js"></script>
     <script>
         AOS.init();
     </script>
