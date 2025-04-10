@@ -590,8 +590,16 @@ footer a:hover {
     border: 1px solid var(--primary);
     position: relative;
 }
+.team-image{
+    height: 400px;
+    width: 100%;
+    overflow: hidden;
+    border-radius: 10px;
+}
 .team-image img{
     width: 100%;
+    object-fit:cover;
+    height: 400px;
 }
 .team-detail{
  position: absolute;
@@ -617,9 +625,17 @@ font-size: 20px;
 line-height: 28px;
 color: #03A85A;
 }
-.team-detail span{
+.team-detail p{
     font-size: 12px;
     color: white;
+    margin-bottom: 0;
+    padding-bottom: 0;
+}
+.text-yellow{
+    color: yellow !important;
+}
+.bi-brightness-high-fill{
+    line-height: 0;
 }
 .about-card{
  

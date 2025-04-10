@@ -18,11 +18,13 @@ $(document).ready(function () {
         $("#logo-image").attr("src", darkLogoURL);
         $("#logo-image-sm").attr("src", darkLogoURL);
         $(".navbar").removeClass("navbar-light").addClass("navbar-dark");
+        $("#toggleTheme i").removeClass("bi-brightness-high-fill").addClass("bi-cloud-moon-fill");
       } else {
         $("#theme-link").attr("href", lightThemeURL);
         $("#logo-image").attr("src", lightLogoURL);
         $("#logo-image-sm").attr("src", lightLogoURL);
         $(".navbar").removeClass("navbar-dark").addClass("navbar-light");
+        $("#toggleTheme i").removeClass("bi-cloud-moon-fill").addClass("bi-brightness-high-fill");
       }
   
       // Save mode in localStorage (remove this block if you want no persistence at all)
