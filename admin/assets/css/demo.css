@@ -151,8 +151,8 @@
   font-size: 12px;
   font-weight: 500;
   color:white;
-  background-color: #696cff;
-  border-color: #696cff;
+  background-color: #03a85a;
+  border-color: #03a85a;
   box-shadow: 0 0.125rem 0.25rem 0 rgba(105, 108, 255, 0.4);
   padding: 4px 15px;
   border: none;
@@ -194,7 +194,7 @@
 
  
 .datatable-responsive2::-webkit-scrollbar-thumb {
-  background-color: #696cff;
+  background-color: #03a85a;
 }
 .total-text h2{
    font-size: 18px;
@@ -207,7 +207,7 @@
   border: none;
 }
 .info-btn i{
-  color: #696cff;
+  color: #03a85a;
 }
 
 
@@ -273,7 +273,7 @@
   gap: 163px;
   align-self: stretch;
   border-radius: 1px;
-  background:#696cff;
+  background:#03a85a;
 }
 
 .reciept-note {
@@ -350,7 +350,7 @@ background-color: green;
  color: white;
  padding: 4px 10px;
  border-radius: 4px;
- background-color: #696cff;
+ background-color: #03a85a;
  margin-right: 7px;
  cursor: pointer;
  text-decoration: none;
