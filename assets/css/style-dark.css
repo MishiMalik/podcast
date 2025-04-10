@@ -671,6 +671,14 @@ color: white !important;
 .text.ellipsis-4{
     color: rgb(197, 194, 194) !important;
 }
+.page-link{
+    background-color: #000 !important;
+    border: 1px solid rgb(139, 139, 139);
+}
+.page-link{
+    color: white !important;
+    font-size: 18px;
+}
 /* ==========================================================timeline */
 /* Timeline Container */
 .timeline {
